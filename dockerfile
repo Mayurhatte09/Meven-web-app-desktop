@@ -1,7 +1,7 @@
 
 FROM tomcat:9.0.109
 
-COPY sss/target/maven-web-application.war /usr/local/tomcat/webapps/
+COPY target/maven-web-application.war /usr/local/tomcat/webapps/
 
 EXPOSE 9090
 
